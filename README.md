@@ -1,3 +1,5 @@
+Backend Engineer | Fintech & Payments | Distributed Systems
+
 # Frank Puma Chara
 
 Backend Engineer especializado en sistemas financieros, pagos y arquitecturas distribuidas.
