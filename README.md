@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./assets/algorithmic-systems.svg" alt="Animated diagram showing payment flows, distributed systems, and algorithmic engineering" width="100%" />
-</p>
-
 <h1 align="center">Frank Puma Chara</h1>
 
 <p align="center">
@@ -9,52 +5,109 @@
 </p>
 
 <p align="center">
-  I build production-grade backend systems for money movement, transaction flows, and high-integrity distributed platforms.
+  I build backend systems for payments, money movement, and high-integrity distributed platforms.
 </p>
 
-## Positioning
+<p align="center">
+  <strong>Built for flows where correctness, uptime, and revenue move together.</strong>
+</p>
 
-I work on backend systems where correctness, uptime, and operational clarity directly affect revenue and trust.
+## Snapshot
 
-I adapt quickly to new domains, teams, and stacks, but adaptation is not the main value I bring.
-My edge is designing and building from strong fundamentals in distributed systems, transactional integrity, event-driven architecture, and algorithmic reasoning.
+<p align="center">
+  <img src="https://img.shields.io/badge/Payments-FF6B35?style=for-the-badge" alt="Payments" />
+  <img src="https://img.shields.io/badge/Fintech-FF006E?style=for-the-badge" alt="Fintech" />
+  <img src="https://img.shields.io/badge/Distributed_Systems-3A86FF?style=for-the-badge" alt="Distributed Systems" />
+  <img src="https://img.shields.io/badge/Event--Driven-06D6A0?style=for-the-badge" alt="Event-Driven" />
+  <img src="https://img.shields.io/badge/Transactions-8338EC?style=for-the-badge" alt="Transactions" />
+  <img src="https://img.shields.io/badge/Reliability-FFBE0B?style=for-the-badge" alt="Reliability" />
+</p>
 
-## Commercial Value
+<p align="center">
+  <strong>Worked At</strong><br/>
+  CSTI • Ligo • Pragma
+</p>
 
-- Turn business and product requirements into production-ready backend systems.
-- Design payment and transfer flows with clear operational guarantees.
-- Build integrations that survive retries, failures, asynchronous events, and real-world edge cases.
-- Improve reliability, observability, and delivery confidence in critical systems.
+<p align="center">
+  <strong>Built For</strong><br/>
+  Kasnet • Culqi • Banco Agromercantil de Guatemala
+</p>
 
-## Research-Oriented Engineering
+<p align="center">
+  <strong>Integrated With</strong><br/>
+  Entel • Yape • Interbank
+</p>
 
-- I reason from first principles: data flow, state transitions, system boundaries, and failure modes.
-- I care about idempotency, consistency, ordering, backpressure, latency budgets, and recovery paths.
-- I use algorithmic thinking for routing, reconciliation, retries, scheduling, and high-volume event processing.
-- I prefer explicit trade-offs over framework-driven complexity.
+## Featured Work
 
-## Selected Domain Experience
+| Repository | Focus | Shows |
+| --- | --- | --- |
+| [money-manager-backend-microservices-nestjs](https://github.com/frankleonardopumachara/money-manager-backend-microservices-nestjs) | Financial backend microservices | Service decomposition, domain boundaries, backend-for-money flows |
+| [hexagonal-nestjs-food-court](https://github.com/frankleonardopumachara/hexagonal-nestjs-food-court) | Hexagonal architecture with NestJS | Clean architecture, modularity, separation of concerns |
+| [backend-nodejs-serverless](https://github.com/frankleonardopumachara/backend-nodejs-serverless) | AWS-oriented serverless backend | Cloud-native patterns, backend scalability, distributed services |
+| [nodejs-reto-tecnico-kafka](https://github.com/frankleonardopumachara/nodejs-reto-tecnico-kafka) | Event-driven processing with Kafka | Async workflows, messaging, event-driven design |
+| [prueba-backend-gateway-pos](https://github.com/frankleonardopumachara/prueba-backend-gateway-pos) | POS and gateway-style backend flows | Transactional scenarios, payment-oriented backend thinking |
 
-- **Culqi**: payment systems and gateway-oriented transaction flows.
-- **Kasnet**: agent networks, POS operations, and transactional infrastructure.
-- **Ligo**: money transfer platforms and backend services for financial operations.
+## Systems Map
 
-## Core Stack
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Kasnet Digital</strong><br/>
+      POS transactions, recharges, and collections across Peru
+    </td>
+    <td width="50%" valign="top">
+      <strong>Culqi</strong><br/>
+      Payment admin, balances, sales visibility, and reporting
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Ligo B2B</strong><br/>
+      Transaction core for money transfers and enterprise integrations
+    </td>
+    <td width="50%" valign="top">
+      <strong>Banco Agromercantil</strong><br/>
+      Critical cloud migration with resilience and scale
+    </td>
+  </tr>
+</table>
 
-- Node.js, TypeScript, NestJS
-- Microservices and event-driven architecture
-- Kafka, SQS, webhooks
-- AWS: Lambda, EKS, S3, DynamoDB, RDS
-- PostgreSQL, Redis, Elasticsearch
-- Docker, Kubernetes, CI/CD
-- Domain-Driven Design
+## Engineering Lens
 
-## What I Am Building Now
+<p align="center">
+  <img src="https://img.shields.io/badge/Payments-F59E0B?style=flat-square" alt="Payments" />
+  <img src="https://img.shields.io/badge/Distributed_Systems-2563EB?style=flat-square" alt="Distributed Systems" />
+  <img src="https://img.shields.io/badge/Event--Driven-0EA5E9?style=flat-square" alt="Event-Driven" />
+  <img src="https://img.shields.io/badge/Reliability-10B981?style=flat-square" alt="Reliability" />
+  <img src="https://img.shields.io/badge/Idempotency-7C3AED?style=flat-square" alt="Idempotency" />
+  <img src="https://img.shields.io/badge/Scale-F97316?style=flat-square" alt="Scale" />
+</p>
 
-- Distributed payment systems
-- Event-driven backend platforms
-- Production-grade engineering practices
-- Reliable architectures that hold under scale and failure
+## Transaction Patterns
+
+| Pattern | What It Solves |
+| --- | --- |
+| Routing | Provider-aware transaction path selection |
+| State Machines | Explicit lifecycle control for money flows |
+| Idempotency | Safe retries and replay protection |
+| Reconciliation | Mismatch detection across systems |
+| Ordering and Retries | Recovery from async and out-of-order events |
+
+## Stack Map
+
+| Layer | Stack |
+| --- | --- |
+| Language | Node.js, TypeScript, NestJS |
+| Architecture | Microservices, Event-Driven Architecture, DDD |
+| Messaging | Kafka, SQS, Webhooks |
+| Cloud | AWS Lambda, EKS, S3, DynamoDB, RDS |
+| Data | PostgreSQL, Redis, Elasticsearch |
+| Platform | Docker, Kubernetes, CI/CD |
+
+## Approach
+
+I design and build from strong fundamentals in distributed systems, transactional integrity, and algorithmic reasoning.
 
 ## Contact
 
