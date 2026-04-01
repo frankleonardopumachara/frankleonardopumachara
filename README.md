@@ -48,31 +48,6 @@
 | [nodejs-reto-tecnico-kafka](https://github.com/frankleonardopumachara/nodejs-reto-tecnico-kafka) | Event-driven processing with Kafka | Async workflows, messaging, event-driven design |
 | [prueba-backend-gateway-pos](https://github.com/frankleonardopumachara/prueba-backend-gateway-pos) | POS and gateway-style backend flows | Transactional scenarios, payment-oriented backend thinking |
 
-## Systems Map
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>Kasnet Digital</strong><br/>
-      POS transactions, recharges, and collections across Peru
-    </td>
-    <td width="50%" valign="top">
-      <strong>Culqi</strong><br/>
-      Payment admin, balances, sales visibility, and reporting
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>Ligo B2B</strong><br/>
-      Transaction core for money transfers and enterprise integrations
-    </td>
-    <td width="50%" valign="top">
-      <strong>Banco Agromercantil</strong><br/>
-      Critical cloud migration with resilience and scale
-    </td>
-  </tr>
-</table>
-
 ## Engineering Lens
 
 <p align="center">
